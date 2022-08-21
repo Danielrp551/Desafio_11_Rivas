@@ -92,6 +92,11 @@ main{
 /* Estrategia : Mobile First */
 
 /* Dispositivos grandes (desktop) */
-@media(min-width: 1024px){
-
+@media(min-width: 768px){
+    .me-auto{
+        margin-right: 0px !important ;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
 }
