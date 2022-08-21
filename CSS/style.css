@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    background-color: a;
+}
+/* Inicio */
+
+/* Header */
+.bg-light{
+    background-color: #0E131F !important;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+}
+/* Animacion */
+.navbar-brand:hover{
+    color: #4ECDC4;
+}
+.nav-link.active{
+    color: white !important; 
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Animacion */
+.nav-link.active:hover{
+    color: #4ECDC4 !important;
+}
+
+
+/* MediaQuerys */
+/* Estrategia : Mobile First */
+
+/* Dispositivos grandes (desktop) */
+@media(min-width: 1024px){
+
+}
