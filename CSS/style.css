@@ -134,11 +134,12 @@ main {
     grid-area: Concierto_1_grande;
 }
 
-.Concierto_1_grande img{
+.Concierto_1_grande img {
     margin: 10px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_1_grande img:hover{
+.Concierto_1_grande img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -147,11 +148,12 @@ main {
     grid-area: Concierto_1;
 }
 
-.Concierto_1 img{
+.Concierto_1 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_1 img:hover{
+.Concierto_1 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -160,11 +162,12 @@ main {
     grid-area: Concierto_2;
 }
 
-.Concierto_2 img{
+.Concierto_2 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_2 img:hover{
+.Concierto_2 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -173,11 +176,12 @@ main {
     grid-area: Concierto_3;
 }
 
-.Concierto_3 img{
+.Concierto_3 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_3 img:hover{
+.Concierto_3 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -186,11 +190,12 @@ main {
     grid-area: Concierto_4;
 }
 
-.Concierto_4 img{
+.Concierto_4 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_4 img:hover{
+.Concierto_4 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -199,11 +204,12 @@ main {
     grid-area: Concierto_5;
 }
 
-.Concierto_5 img{
+.Concierto_5 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Concierto_5 img:hover{
+.Concierto_5 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -212,11 +218,12 @@ main {
     grid-area: Concierto_6;
 }
 
-.Concierto_6 img{
+.Concierto_6 img {
     margin: 0px 0px 10px 0px;
 }
+
 /* Animacion */
-.Concierto_6 img:hover{
+.Concierto_6 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -229,44 +236,236 @@ main {
     .grid_container_1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas:
             "Concierto_1_grande Concierto_1 Concierto_2 Concierto_3"
             "Concierto_1_grande Concierto_1 Concierto_2 Concierto_3"
             "Concierto_1_grande Concierto_4 Concierto_5 Concierto_6"
             "Concierto_1_grande Concierto_4 Concierto_5 Concierto_6";
-        border: 1px #CA054D solid;
-        background-color: black;
-        border-radius: 5px;
     }
-    .Concierto_1_grande img{
+
+    .Concierto_1_grande img {
         margin: 10px 5px 10px 0px;
     }
-    .Concierto_1 img{
-        margin: 10px 5px 5px 5px;
-    }
-    .Concierto_2 img{
-        margin: 10px 5px 5px 5px;
-    }
-    
-    .Concierto_3{
-        margin-right: 0px;
-    }
-    .Concierto_3 img{
+
+    .Concierto_1 img {
         margin: 10px 5px 5px 5px;
     }
 
-    .Concierto_4 img{
-        margin: 5px 5px 10px 5px;
+    .Concierto_2 img {
+        margin: 10px 5px 5px 5px;
     }
-    .Concierto_5 img{
+
+    .Concierto_3 {
+        margin-right: 0px;
+    }
+
+    .Concierto_3 img {
+        margin: 10px 5px 5px 5px;
+    }
+
+    .Concierto_4 img {
         margin: 5px 5px 10px 5px;
     }
 
-    .Concierto_6{
+    .Concierto_5 img {
+        margin: 5px 5px 10px 5px;
+    }
+
+    .Concierto_6 {
         margin-right: 0px;
     }
-    .Concierto_6 img{
-        margin: 5px 5px 10px 5px ;
+
+    .Concierto_6 img {
+        margin: 5px 5px 10px 5px;
+    }
+}
+
+/* Fans */
+.grid_container_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.75fr 1fr 0.48fr 1fr 0.75fr 1fr;
+    grid-template-areas:
+        "Fans_1 Fans_1 Fans_1 Fans_1"
+        "Fans_2 Fans_2 Fans_3 Fans_3"
+        "Fans_4 Fans_4 Fans_4 Fans_4"
+        "Fans_5 Fans_5 Fans_5 Fans_5"
+        "Fans_6 Fans_6 Fans_6 Fans_6"
+        "Fans_7 Fans_7 Fans_8 Fans_8"
+        "Fans_9 Fans_9 Fans_9 Fans_9";
+        border: 1px #CA054D solid;
+        border-radius: 5px;
+        background-color:black;
+}
+
+.Fans_1 {
+    grid-area: Fans_1;
+}
+.Fans_1 img{
+    margin: 10px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_1:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.Fans_2 {
+    grid-area: Fans_2;
+}
+.Fans_2 img{
+    margin: 0px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_2:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fans_3 {
+    grid-area: Fans_3;
+}
+.Fans_3 img{
+    margin: 0px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_3:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fans_4 {
+    grid-area: Fans_4;
+}
+.Fans_4 img{
+    margin: 0px 0px 10px 0px;
+}
+/* Animacion */
+.Fans_4:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.Fans_5 {
+    grid-area: Fans_5;
+    border: 1px black solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+    background-color: rgb(53, 27, 27);
+}
+
+.Fans_5 h2{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    margin: 2px;
+}
+
+.Fans_5 p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Fans_5 a{
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+}
+.Fans_5 a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    color: #CA054D;
+}
+
+.Fans_6 {
+    grid-area: Fans_6;
+}
+.Fans_6 img{
+    margin: 0px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_6:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fans_7 {
+    grid-area: Fans_7;
+}
+.Fans_7 img{
+    margin: 0px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_7:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fans_8 {
+    grid-area: Fans_8;
+}
+.Fans_8 img{
+    margin: 0px 0px 5px 0px;
+}
+/* Animacion */
+.Fans_8:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.Fans_9 {
+    grid-area: Fans_9;
+}
+.Fans_9 img{
+    margin: 0px 0px 10px 0px;
+}
+/* Animacion */
+.Fans_9:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* MediaQuerys */
+/* Estrategia : Mobile First */
+
+/* Dispositivos medianos (desktop) */
+@media(min-width: 768px){
+    .grid_container_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "Fans_2 Fans_1 Fans_3"
+            "Fans_4 Fans_5 Fans_6"
+            "Fans_7 Fans_9 Fans_8";
+    }
+    .Fans_1 img{
+        margin: 10px 0px 0px 0px;
+    }
+    .Fans_2 img{
+        margin: 10px 0px 0px 0px;
+    }
+    .Fans_3 img{
+        margin: 10px 0px 0px 0px;
+    }
+    .Fans_4 img{
+        margin: 10px 0px 10px 0px;
+    }
+    .Fans_5{
+        margin: 10px;
+    }
+    .Fans_6 img{
+        margin: 10px 0px 10px 0px;
+    }.Fans_7 img{
+        margin: 0px 0px 10px 0px;
+    }.Fans_8 img{
+        margin: 0px 0px 10px 0px;
+    }.Fans_9 img{
+        margin: 0px 0px 10px 0px;
     }
 }
