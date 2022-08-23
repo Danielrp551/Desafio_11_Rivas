@@ -114,6 +114,12 @@ main {
 
 /* Conciertos */
 
+.titulo_conciertos{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+
 .grid_container_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -132,6 +138,7 @@ main {
 
 .Concierto_1_grande {
     grid-area: Concierto_1_grande;
+    margin: 0px;
 }
 
 .Concierto_1_grande img {
@@ -146,6 +153,7 @@ main {
 
 .Concierto_1 {
     grid-area: Concierto_1;
+    margin: 0px;
 }
 
 .Concierto_1 img {
@@ -160,6 +168,7 @@ main {
 
 .Concierto_2 {
     grid-area: Concierto_2;
+    margin: 0px;
 }
 
 .Concierto_2 img {
@@ -174,6 +183,7 @@ main {
 
 .Concierto_3 {
     grid-area: Concierto_3;
+    margin: 0px;
 }
 
 .Concierto_3 img {
@@ -188,6 +198,7 @@ main {
 
 .Concierto_4 {
     grid-area: Concierto_4;
+    margin: 0px;
 }
 
 .Concierto_4 img {
@@ -202,6 +213,7 @@ main {
 
 .Concierto_5 {
     grid-area: Concierto_5;
+    margin: 0px;
 }
 
 .Concierto_5 img {
@@ -216,6 +228,7 @@ main {
 
 .Concierto_6 {
     grid-area: Concierto_6;
+    margin: 0px;
 }
 
 .Concierto_6 img {
@@ -282,6 +295,10 @@ main {
 }
 
 /* Fans */
+.titulo_fans{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
 .grid_container_2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -301,6 +318,7 @@ main {
 
 .Fans_1 {
     grid-area: Fans_1;
+    margin: 0px;
 }
 
 .Fans_1 img {
@@ -315,6 +333,7 @@ main {
 
 .Fans_2 {
     grid-area: Fans_2;
+    margin: 0px;
 }
 
 .Fans_2 img {
@@ -329,6 +348,7 @@ main {
 
 .Fans_3 {
     grid-area: Fans_3;
+    margin: 0px;
 }
 
 .Fans_3 img {
@@ -343,6 +363,7 @@ main {
 
 .Fans_4 {
     grid-area: Fans_4;
+    margin: 0px;
 }
 
 .Fans_4 img {
@@ -395,6 +416,7 @@ main {
 
 .Fans_6 {
     grid-area: Fans_6;
+    margin: 0px;
 }
 
 .Fans_6 img {
@@ -409,6 +431,7 @@ main {
 
 .Fans_7 {
     grid-area: Fans_7;
+    margin: 0px;
 }
 
 .Fans_7 img {
@@ -423,6 +446,7 @@ main {
 
 .Fans_8 {
     grid-area: Fans_8;
+    margin: 0px;
 }
 
 .Fans_8 img {
@@ -437,6 +461,7 @@ main {
 
 .Fans_9 {
     grid-area: Fans_9;
+    margin: 0px;
 }
 
 .Fans_9 img {
@@ -571,15 +596,16 @@ main {
     margin: 10px 0px 10px 0px;
 }
 
-.bloque_canciones{
+.bloque_canciones {
     text-align: center;
 }
-.bloque_canciones h2{
+
+.bloque_canciones h2 {
     color: white;
     font-family: 'Pacifico', cursive;
 }
 
-.bloque_canciones div iframe{
+.bloque_canciones div iframe {
     margin: 10px 0px 10px 0px;
 }
 
@@ -587,31 +613,131 @@ main {
 /* Estrategia : Mobile First */
 
 /* Dispositivos medianos (desktop) */
-@media(min-width: 768px){
+@media(min-width: 768px) {
     .grid_container_3 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
             "album_1 album_2 album_3";
-    
+
     }
+
     .grid_container_4 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
             "album_4 album_5 album_6";
     }
-    
-    .bloque_canciones div{
+
+    .bloque_canciones div {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-    .bloque_canciones div iframe{
+
+    .bloque_canciones div iframe {
         width: 32%;
     }
 }
 
+/* Premios */
+.titulo_1_premios{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
 
+.grid_container_5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "foto_premios_1"
+        "foto_premios_2"
+        "foto_premios_3";
+        border: 1px #CA054D solid;
+        border-radius: 12px ;
+        background-color: black;
+}
 
+.foto_premios_1 {
+    grid-area: foto_premios_1;
+    margin: 0px;
+}
+
+.foto_premios_2 {
+    grid-area: foto_premios_2;
+    margin: 0px;
+}
+
+.foto_premios_3 {
+    grid-area: foto_premios_3;
+    margin: 0px;
+}
+
+.foto_premios{
+    margin: 10px 0px 0px 0px;
+}
+.foto_premios_3 img{
+    margin: 10px 0px 10px 0px;
+}
+.foto_premios:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.accordion-button {
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_acordeon {
+    padding: 0px;
+    width: 80%;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+.accordion-item:first-of-type {
+    width: 88%;
+}
+
+.accordion-item:not(:first-of-type) {
+    width: 88%;
+}
+
+.titulo_premios:hover {
+    color: #CA054D;
+}
+
+/* MediaQuerys */
+/* Estrategia : Mobile First */
+
+/* Dispositivos medianos (desktop) */
+@media(min-width: 768px){
+    .grid_container_5 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "foto_premios_1 foto_premios_2 foto_premios_3"
+            "foto_premios_1 foto_premios_2 foto_premios_3"
+            "foto_premios_1 foto_premios_2 foto_premios_3";
+    }
+    .foto_premios{
+        margin: 10px 0px 10px 0px;
+    }
+}

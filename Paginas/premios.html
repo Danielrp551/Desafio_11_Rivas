@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Imagenes/logo_the_weeknd.png">
+    <title>The Weeknd</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">The Weeknd</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./conciertos.html">Conciertos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./fans.html">Fans</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Albumes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./album.html">Albumes Antiguos</a></li>
+                                <li><a class="dropdown-item" href="./album.html">Albumes Recientes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./premios.html">Premios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h2 class="text-center titulo_1_premios">Premios</h2>
+        <br>
+        <div class="grid_container_5 container">
+            <div class="foto_premios_1 row">
+                <img class="foto_premios" src="../Imagenes/foto_premios_1.jpeg" alt="the weeknd en una foto">
+            </div>
+            <div class="foto_premios_2 row">
+                <img class="foto_premios" src="../Imagenes/foto_premios_2.png" alt="the weeknd en un concierto">
+            </div>
+            <div class="foto_premios_3 row">
+                <img class="foto_premios" src="../Imagenes/foto_premios_3.jpg" alt="the weeknd en otro concierto">
+            </div>
+          </div>
+        <br>
+        <!-- Acordeon de Bootstrap para los premios -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button titulo_premios" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Premios Grammy
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img class="container imagen_acordeon" src="../Imagenes/Grammy.jpeg" alt="the weeknd con dos grammys">
+                        <p>Los premios Grammy son una distinción otorgada por la Academia Nacional de Artes y Ciencias de la Grabación de Estados Unidos para dar reconocimiento a un logro especialmente destacado en la industria musical.</p>
+                        <p>The Weeknd ha ganado <strong>4 Premios Grammy</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed titulo_premios" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Billboards
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img class="container imagen_acordeon" src="../Imagenes/Billboard.jpg" alt="the weeknd con varios billboards">
+                        <p>Los Billboard Music Awards son unos premios entregados anualmente por Billboard, una revista estadounidense dedicada a la industria musical.</p>
+                        <p>The Weeknd ha ganado <strong>20 Billboard Music Awards</strong> lo que lo convierte en el 4º artista más premiado de estos premios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed titulo_premios" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        American Music Awards
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img class="container imagen_acordeon" src="../Imagenes/american_awards.jpg.crdownload" alt="the weeknd recibiendo su american award">
+                        <p>Los American Music Awards —a menudo llamados AMA— son premios entregados a lo mejor de la música, reconocen a los artistas más populares. Fueron creados por el presentador de televisión Dick Clark en 1973 para competir con los premios Grammy.</p>
+                        <p>The Weeknd ha ganado <strong>6 American Music Awards</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed titulo_premios" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Juno Awards
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img class="container imagen_acordeon" src="../Imagenes/juno_awards.webp" alt="the weeknd con varios juno awards">
+                        <p>Los premios Juno, en inglés Juno Awards, los entrega anualmente la Academia Canadiense de las Artes y las Ciencias (CARAS) a músicos canadienses. Los Junos se crearon en 1970 a partir de los Gold Leaf Awards, que concedía la revista RPM.</p>
+                        <p>The Weeknd ha ganado <strong>9 Juno Awards</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </main>
+    <footer class="footer">
+        <img src="../Imagenes/logo_the_weeknd.png" alt="logo del artista the weeknd" class="logo_the_weeknd_footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/theweeknd/" target="_blank">
+                    <img src="../Imagenes/facebook_logo.png" alt="logo de facebook" class="imagen_footer">
+                </a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ " target="_blank">
+                    <img src="../Imagenes/spotify_logo.png" alt="logo de spotify" class="spotify_logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/theweeknd/" target="_blank">
+                    <img src="../Imagenes/instagram_logo.png" alt="logo de instagram" class="imagen_footer">
+                </a>
+            </li>
+        </ul>
+        <div>
+            <p>@2022 The Weeknd Fan Page</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
