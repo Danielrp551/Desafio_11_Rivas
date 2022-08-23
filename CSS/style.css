@@ -294,30 +294,35 @@ main {
         "Fans_6 Fans_6 Fans_6 Fans_6"
         "Fans_7 Fans_7 Fans_8 Fans_8"
         "Fans_9 Fans_9 Fans_9 Fans_9";
-        border: 1px #CA054D solid;
-        border-radius: 5px;
-        background-color:black;
+    border: 1px #CA054D solid;
+    border-radius: 5px;
+    background-color: black;
 }
 
 .Fans_1 {
     grid-area: Fans_1;
 }
-.Fans_1 img{
+
+.Fans_1 img {
     margin: 10px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_1:hover{
+.Fans_1:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
 .Fans_2 {
     grid-area: Fans_2;
 }
-.Fans_2 img{
+
+.Fans_2 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_2:hover{
+.Fans_2:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -325,11 +330,13 @@ main {
 .Fans_3 {
     grid-area: Fans_3;
 }
-.Fans_3 img{
+
+.Fans_3 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_3:hover{
+.Fans_3:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -337,14 +344,17 @@ main {
 .Fans_4 {
     grid-area: Fans_4;
 }
-.Fans_4 img{
+
+.Fans_4 img {
     margin: 0px 0px 10px 0px;
 }
+
 /* Animacion */
-.Fans_4:hover{
+.Fans_4:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
 .Fans_5 {
     grid-area: Fans_5;
     border: 1px black solid;
@@ -357,18 +367,18 @@ main {
     background-color: rgb(53, 27, 27);
 }
 
-.Fans_5 h2{
+.Fans_5 h2 {
     color: white;
     font-family: 'Pacifico', cursive;
     margin: 2px;
 }
 
-.Fans_5 p{
+.Fans_5 p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Fans_5 a{
+.Fans_5 a {
     width: 100px;
     height: 30px;
     color: white;
@@ -376,7 +386,8 @@ main {
     background-color: black;
     border-radius: 5px;
 }
-.Fans_5 a:hover{
+
+.Fans_5 a:hover {
     transform: scale(1.05);
     transition: 0.3s;
     color: #CA054D;
@@ -385,11 +396,13 @@ main {
 .Fans_6 {
     grid-area: Fans_6;
 }
-.Fans_6 img{
+
+.Fans_6 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_6:hover{
+.Fans_6:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -397,11 +410,13 @@ main {
 .Fans_7 {
     grid-area: Fans_7;
 }
-.Fans_7 img{
+
+.Fans_7 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_7:hover{
+.Fans_7:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -409,11 +424,13 @@ main {
 .Fans_8 {
     grid-area: Fans_8;
 }
-.Fans_8 img{
+
+.Fans_8 img {
     margin: 0px 0px 5px 0px;
 }
+
 /* Animacion */
-.Fans_8:hover{
+.Fans_8:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -421,11 +438,13 @@ main {
 .Fans_9 {
     grid-area: Fans_9;
 }
-.Fans_9 img{
+
+.Fans_9 img {
     margin: 0px 0px 10px 0px;
 }
+
 /* Animacion */
-.Fans_9:hover{
+.Fans_9:hover {
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -434,38 +453,165 @@ main {
 /* Estrategia : Mobile First */
 
 /* Dispositivos medianos (desktop) */
-@media(min-width: 768px){
+@media(min-width: 768px) {
     .grid_container_2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas:
             "Fans_2 Fans_1 Fans_3"
             "Fans_4 Fans_5 Fans_6"
             "Fans_7 Fans_9 Fans_8";
     }
-    .Fans_1 img{
+
+    .Fans_1 img {
         margin: 10px 0px 0px 0px;
     }
-    .Fans_2 img{
+
+    .Fans_2 img {
         margin: 10px 0px 0px 0px;
     }
-    .Fans_3 img{
+
+    .Fans_3 img {
         margin: 10px 0px 0px 0px;
     }
-    .Fans_4 img{
+
+    .Fans_4 img {
         margin: 10px 0px 10px 0px;
     }
-    .Fans_5{
+
+    .Fans_5 {
         margin: 10px;
     }
-    .Fans_6 img{
+
+    .Fans_6 img {
         margin: 10px 0px 10px 0px;
-    }.Fans_7 img{
+    }
+
+    .Fans_7 img {
         margin: 0px 0px 10px 0px;
-    }.Fans_8 img{
+    }
+
+    .Fans_8 img {
         margin: 0px 0px 10px 0px;
-    }.Fans_9 img{
+    }
+
+    .Fans_9 img {
         margin: 0px 0px 10px 0px;
     }
 }
+
+/* Albumes */
+.bloque_album {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloque_album h2 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.grid_container_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "album_1"
+        "album_2"
+        "album_3";
+
+}
+
+.album_1 {
+    grid-area: album_1;
+}
+
+.album_2 {
+    grid-area: album_2;
+}
+
+.album_3 {
+    grid-area: album_3;
+}
+
+.grid_container_3 div iframe {
+    width: 95%;
+    height: 350px;
+    margin: 10px 0px 10px 0px;
+}
+
+.grid_container_4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "album_4"
+        "album_5"
+        "album_6";
+
+}
+
+.album_4 {
+    grid-area: album_4;
+}
+
+.album_5 {
+    grid-area: album_5;
+}
+
+.album_6 {
+    grid-area: album_6;
+}
+
+.grid_container_4 div iframe {
+    width: 95%;
+    height: 350px;
+    margin: 10px 0px 10px 0px;
+}
+
+.bloque_canciones{
+    text-align: center;
+}
+.bloque_canciones h2{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.bloque_canciones div iframe{
+    margin: 10px 0px 10px 0px;
+}
+
+/* MediaQuerys */
+/* Estrategia : Mobile First */
+
+/* Dispositivos medianos (desktop) */
+@media(min-width: 768px){
+    .grid_container_3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "album_1 album_2 album_3";
+    
+    }
+    .grid_container_4 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "album_4 album_5 album_6";
+    }
+    
+    .bloque_canciones div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bloque_canciones div iframe{
+        width: 32%;
+    }
+}
+
+
+
